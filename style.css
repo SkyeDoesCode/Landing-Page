@@ -1,0 +1,39 @@
+.Header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 15% 5% 15%;
+    margin: 0;
+
+}
+.Body {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+.Body img{
+    width: 100px;
+    height: 100px;
+}
+
+.headerlogo {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.headerpicture img{
+width: 500px;
+height: 300px;
+}
+
+.Hero {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+}
+
