@@ -1,13 +1,14 @@
 .Header {
-    background-color: aquamarine;
+    background-color: #1F2337;
     display: flex;
     justify-content: space-around;
-    padding: 0% 15% 5% 15%;
-    margin: 0;
+    padding: 20px;
+    /* margin: 0; */
+    color: azure;
 
 }
 .Body {
-    background-color: green;
+    background-color: azure;
     display: flex;
     justify-content: space-around;
 }
@@ -19,21 +20,63 @@
 .headerlogo {
     font-size: 48px;
     font-weight: 900;
+    color: azure;
 }
 
 .headerpicture img{
 width: 500px;
 height: 300px;
+padding-left: 60px;
 }
 
 .Hero {
-    background-color: greenyellow;
+    background-color: #1F2337;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .right-header {
     display: flex;
 }
 
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: aliceblue; */
+}
+
+.headertitle {
+    font-size: 24px;
+    font-weight: 900;
+    color:azure
+}
+
+.headerbutton {
+        background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.right-header button {
+        background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
