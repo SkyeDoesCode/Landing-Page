@@ -35,7 +35,17 @@ margin: 0;
 width: 500px;
 height: 300px;
 padding-left: 60px;
+justify-content: center;
+align-items: center;
 }
+
+.headerpicture {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
 
 .bodyblocks {
     display: flex;
@@ -45,6 +55,24 @@ padding-left: 60px;
     flex-direction: row;
 }
 
+.bodyblock1,
+.bodyblock2,
+.bodyblock3, 
+.bodyblock4, 
+.bodyblock5  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.bodyblock1 img,
+.bodyblock2 img,
+.bodyblock3 img, 
+.bodyblock4 img, 
+.bodyblock5 img{
+    border-radius: 10%;
+}
 
 .bodytitle {
     display: flex;
@@ -52,7 +80,6 @@ padding-left: 60px;
     font-size: 48px;
     font-weight: 900;
     justify-content: center;
-    padding-bottom: 128px;
 }
 
 .Hero {
@@ -113,7 +140,7 @@ padding-left: 60px;
         background-color: #E5E7BE;
     font-size: 32px;
     font-style: italic;
-    padding: 300px;
+    padding: 200px;
 }
 
 .quotedfrom {
@@ -125,38 +152,49 @@ padding-left: 60px;
     font-weight: 700;
 }
 
-.Body {
-    display: flex;
-    justify-content: center;
-}
 
 .footer {
+    background-color: azure;
     display: flex;
     height: 800px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: auto;
 }
 .footercontainer {
     display: flex;
     align-items: center;
-    height: 600px;
+    height: 100px;
     width: auto;
     justify-content: center;
     background-color: azure;
     gap: 50px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
+
 .footercontainer2 {
     justify-content: space-between;
     flex-direction: column;
-    font-weight: 600;
+    font-weight: 900;
 
 }
 
 .footercontainer .footerdescription {
-    font-weight: 200;
+    font-weight: 100;
 }
 
 .footerbutton {
-    font-size;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
 }.Header {
     background-color: #1F2337;
     display: flex;
@@ -169,7 +207,7 @@ padding-left: 60px;
 .Body {
     background-color: azure;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .Body img{
     width: 100px;
@@ -182,11 +220,8 @@ padding-left: 60px;
     color: azure;
 }
 
-.headerpicture img{
-width: 500px;
-height: 300px;
-padding-left: 60px;
-}
+
+
 
 .Hero {
     background-color: #1F2337;
@@ -238,4 +273,14 @@ padding-left: 60px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s, transform 0.3s;
+}
+
+.sole {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2337;
+    color: white;
+
 }
