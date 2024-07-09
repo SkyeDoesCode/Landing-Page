@@ -1,4 +1,163 @@
+body {
+margin: 0;
+}
+
 .Header {
+    background-color: #1F2337;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    /* margin: 0; */
+    color: azure;
+
+}
+
+.Body {
+    background-color: azure;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 600px;
+    flex-direction: column;
+}
+
+.Body img{
+    width: 100px;
+    height: 100px;
+}
+
+.headerlogo {
+    font-size: 48px;
+    font-weight: 900;
+    color: azure;
+}
+
+.headerpicture img{
+width: 500px;
+height: 300px;
+padding-left: 60px;
+}
+
+.bodyblocks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 48px;
+    flex-direction: row;
+}
+
+
+.bodytitle {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: center;
+    padding-bottom: 128px;
+}
+
+.Hero {
+    background-color: #1F2337;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right-header {
+    display: flex;
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: aliceblue; */
+}
+
+.headertitle {
+    font-size: 24px;
+    font-weight: 900;
+    color:azure
+}
+
+.headerbutton {
+        background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.right-header button {
+        background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+        background-color: #E5E7BE;
+    font-size: 32px;
+    font-style: italic;
+    padding: 300px;
+}
+
+.quotedfrom {
+    padding-top: 60px;
+    font-size: 25px;
+    width: 200px;
+    height: auto;
+    align-content: center;
+    font-weight: 700;
+}
+
+.Body {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 800px;
+}
+.footercontainer {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    justify-content: center;
+    background-color: azure;
+    gap: 50px;
+    
+}
+.footercontainer2 {
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+
+}
+
+.footercontainer .footerdescription {
+    font-weight: 200;
+}
+
+.footerbutton {
+    font-size;
+}.Header {
     background-color: #1F2337;
     display: flex;
     justify-content: space-around;
